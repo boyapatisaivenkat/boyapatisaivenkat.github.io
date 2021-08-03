@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/Online-Examination-System/Main-page/Sub_pages/Login_Page/Images_used/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.registerbox{
+    width: 320px;
+    height: 600px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.registerbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.registerbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.registerbox input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.registerbox a{
+    font-size: 30px;
+    color: rgb(73, 205, 223);
+}
+
+.registerbox a:hover
+{
+    color: #c5c2b9;
+}
+

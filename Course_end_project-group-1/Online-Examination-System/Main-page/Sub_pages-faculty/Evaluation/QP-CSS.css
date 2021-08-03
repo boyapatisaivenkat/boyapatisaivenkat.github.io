@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/Online-Examination-System/Main-page/Sub_pages-faculty/Evaluation/images/zrwd02.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo h1{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 35px;
+    border: double;
+    padding: 10px;
+    border-color:#fff;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 150px;
+}
+
+.title h5{
+    color: #fff;
+    font-size: 30px;
+}
+
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+#custom-button{
+    background-color: #009578;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+#custom-button2{
+    background-color: #009578;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+  
+#custom-button:hover{
+    background-color: #fff;
+    color: #000;
+}
+  
+#custom-text{
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
+
+
+.submit-test{
+    position: absolute;
+    top: 82%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
